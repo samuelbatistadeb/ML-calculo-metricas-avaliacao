@@ -3,10 +3,10 @@ import numpy as np
 
 
 # Definindo os valores arbitrários de VP, VN, FP e FN
-VP = 50  # Verdadeiros Positivos
-VN = 40  # Verdadeiros Negativos
-FP = 10  # Falsos Positivos
-FN = 5   # Falsos Negativos
+VP = int(input("Qtd Verdadeiros Positivos:"))    # Verdadeiros Positivos
+VN = int(input("Qtd Verdadeiros Negativos:"))    # Verdadeiros Positivos
+FP = int(input("Qtd Falsos Positivos:"))    # Verdadeiros Positivos
+FN = int(input("Qtd Falsos Negativos:"))    # Verdadeiros Positivos
 
 # Funções para calcular as métricas
 def calcular_acuracia(VP, VN, FP, FN):
